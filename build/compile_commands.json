@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/james-paget/Desktop/OpenGL_Resources/build",
+  "command": "/usr/bin/g++-14   -g -o CMakeFiles/test_opengl.dir/src/main.cpp.o -c /home/james-paget/Desktop/OpenGL_Resources/src/main.cpp",
+  "file": "/home/james-paget/Desktop/OpenGL_Resources/src/main.cpp",
+  "output": "CMakeFiles/test_opengl.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/james-paget/Desktop/OpenGL_Resources/build",
+  "command": "/usr/bin/gcc-14   -g -o CMakeFiles/test_opengl.dir/src/glad.c.o -c /home/james-paget/Desktop/OpenGL_Resources/src/glad.c",
+  "file": "/home/james-paget/Desktop/OpenGL_Resources/src/glad.c",
+  "output": "CMakeFiles/test_opengl.dir/src/glad.c.o"
+}
+]

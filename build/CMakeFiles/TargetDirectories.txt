@@ -1,0 +1,3 @@
+/home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles/test_opengl.dir
+/home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles/edit_cache.dir
+/home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles/rebuild_cache.dir
