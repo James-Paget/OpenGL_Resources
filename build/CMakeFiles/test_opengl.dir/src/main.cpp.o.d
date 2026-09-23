@@ -157,4 +157,6 @@ CMakeFiles/test_opengl.dir/src/main.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/GLFW/glfw3.h
+ /usr/include/GLFW/glfw3.h \
+ /home/james-paget/Desktop/OpenGL_Resources/src/simple_triangle_example.h \
+ /home/james-paget/Desktop/OpenGL_Resources/src/custom_multi_example.h

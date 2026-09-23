@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o"
+  "CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o.d"
   "CMakeFiles/test_opengl.dir/src/glad.c.o"
   "CMakeFiles/test_opengl.dir/src/glad.c.o.d"
   "CMakeFiles/test_opengl.dir/src/main.cpp.o"
   "CMakeFiles/test_opengl.dir/src/main.cpp.o.d"
+  "CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o"
+  "CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o.d"
   "test_opengl"
   "test_opengl.pdb"
 )

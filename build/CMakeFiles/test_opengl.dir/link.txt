@@ -1,1 +1,1 @@
-/usr/bin/g++-14 -g CMakeFiles/test_opengl.dir/src/main.cpp.o CMakeFiles/test_opengl.dir/src/glad.c.o -o test_opengl  -lglfw /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 
+/usr/bin/g++-14 -g CMakeFiles/test_opengl.dir/src/main.cpp.o CMakeFiles/test_opengl.dir/src/glad.c.o CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o -o test_opengl  -lglfw /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 

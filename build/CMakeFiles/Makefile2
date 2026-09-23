@@ -81,12 +81,12 @@ clean: CMakeFiles/test_opengl.dir/clean
 CMakeFiles/test_opengl.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_opengl.dir/build.make CMakeFiles/test_opengl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_opengl.dir/build.make CMakeFiles/test_opengl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles --progress-num=1,2,3 "Built target test_opengl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target test_opengl"
 .PHONY : CMakeFiles/test_opengl.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_opengl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_opengl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_opengl.dir/rule

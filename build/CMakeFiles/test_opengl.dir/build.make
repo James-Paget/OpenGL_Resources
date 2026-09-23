@@ -97,21 +97,53 @@ CMakeFiles/test_opengl.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_opengl.dir/src/glad.c.s"
 	/usr/bin/gcc-14 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/james-paget/Desktop/OpenGL_Resources/src/glad.c -o CMakeFiles/test_opengl.dir/src/glad.c.s
 
+CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o: CMakeFiles/test_opengl.dir/flags.make
+CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o: /home/james-paget/Desktop/OpenGL_Resources/src/simple_triangle_example.cpp
+CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o: CMakeFiles/test_opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o -MF CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o.d -o CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o -c /home/james-paget/Desktop/OpenGL_Resources/src/simple_triangle_example.cpp
+
+CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.i"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/james-paget/Desktop/OpenGL_Resources/src/simple_triangle_example.cpp > CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.i
+
+CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.s"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/james-paget/Desktop/OpenGL_Resources/src/simple_triangle_example.cpp -o CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.s
+
+CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o: CMakeFiles/test_opengl.dir/flags.make
+CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o: /home/james-paget/Desktop/OpenGL_Resources/src/custom_multi_example.cpp
+CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o: CMakeFiles/test_opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o -MF CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o.d -o CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o -c /home/james-paget/Desktop/OpenGL_Resources/src/custom_multi_example.cpp
+
+CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.i"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/james-paget/Desktop/OpenGL_Resources/src/custom_multi_example.cpp > CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.i
+
+CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.s"
+	/usr/bin/g++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/james-paget/Desktop/OpenGL_Resources/src/custom_multi_example.cpp -o CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.s
+
 # Object files for target test_opengl
 test_opengl_OBJECTS = \
 "CMakeFiles/test_opengl.dir/src/main.cpp.o" \
-"CMakeFiles/test_opengl.dir/src/glad.c.o"
+"CMakeFiles/test_opengl.dir/src/glad.c.o" \
+"CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o" \
+"CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o"
 
 # External object files for target test_opengl
 test_opengl_EXTERNAL_OBJECTS =
 
 test_opengl: CMakeFiles/test_opengl.dir/src/main.cpp.o
 test_opengl: CMakeFiles/test_opengl.dir/src/glad.c.o
+test_opengl: CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o
+test_opengl: CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o
 test_opengl: CMakeFiles/test_opengl.dir/build.make
 test_opengl: /usr/lib/x86_64-linux-gnu/libGLX.so
 test_opengl: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 test_opengl: CMakeFiles/test_opengl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test_opengl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test_opengl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_opengl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

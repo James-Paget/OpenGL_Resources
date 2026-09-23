@@ -129,6 +129,30 @@ test_opengl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_opengl.dir/build.make CMakeFiles/test_opengl.dir/build
 .PHONY : test_opengl/fast
 
+src/custom_multi_example.o: src/custom_multi_example.cpp.o
+.PHONY : src/custom_multi_example.o
+
+# target to build an object file
+src/custom_multi_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_opengl.dir/build.make CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o
+.PHONY : src/custom_multi_example.cpp.o
+
+src/custom_multi_example.i: src/custom_multi_example.cpp.i
+.PHONY : src/custom_multi_example.i
+
+# target to preprocess a source file
+src/custom_multi_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_opengl.dir/build.make CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.i
+.PHONY : src/custom_multi_example.cpp.i
+
+src/custom_multi_example.s: src/custom_multi_example.cpp.s
+.PHONY : src/custom_multi_example.s
+
+# target to generate assembly for a file
+src/custom_multi_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_opengl.dir/build.make CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.s
+.PHONY : src/custom_multi_example.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -177,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_opengl.dir/build.make CMakeFiles/test_opengl.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/simple_triangle_example.o: src/simple_triangle_example.cpp.o
+.PHONY : src/simple_triangle_example.o
+
+# target to build an object file
+src/simple_triangle_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_opengl.dir/build.make CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o
+.PHONY : src/simple_triangle_example.cpp.o
+
+src/simple_triangle_example.i: src/simple_triangle_example.cpp.i
+.PHONY : src/simple_triangle_example.i
+
+# target to preprocess a source file
+src/simple_triangle_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_opengl.dir/build.make CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.i
+.PHONY : src/simple_triangle_example.cpp.i
+
+src/simple_triangle_example.s: src/simple_triangle_example.cpp.s
+.PHONY : src/simple_triangle_example.s
+
+# target to generate assembly for a file
+src/simple_triangle_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_opengl.dir/build.make CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.s
+.PHONY : src/simple_triangle_example.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test_opengl"
+	@echo "... src/custom_multi_example.o"
+	@echo "... src/custom_multi_example.i"
+	@echo "... src/custom_multi_example.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/simple_triangle_example.o"
+	@echo "... src/simple_triangle_example.i"
+	@echo "... src/simple_triangle_example.s"
 .PHONY : help
 
 

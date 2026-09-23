@@ -8,6 +8,13 @@ add_executable(test_opengl
     src/main.cpp
     src/glad.h
     src/glad.c
+    src/simple_triangle_example.h
+    src/simple_triangle_example.cpp
+    src/custom_multi_example.h
+    src/custom_multi_example.cpp
+    src/glm/glm.hpp
+    src/glm/gtc/matrix_transform.hpp
+    src/glm/gtc/type_ptr.hpp
 )
 
 target_link_libraries(test_opengl 

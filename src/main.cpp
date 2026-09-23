@@ -2,6 +2,9 @@
 #include "glad.h"
 #include<GLFW/glfw3.h>
 
+#include "simple_triangle_example.h"
+#include "custom_multi_example.h"
+
 int main() {
     /*
     ADDITIONAL NOTES**
@@ -9,8 +12,6 @@ int main() {
         . GLFW for window creation, GLAD for OpenGL rendering extras it appears
             +Include GLAD before GLFW to prevent errors
     */
-    std::cout << "Program Start..." << std::endl;
-
     GLFWwindow* window;
 
     if( !glfwInit() ) {     // Initialise GLFW, else leave with error code
@@ -18,26 +19,33 @@ int main() {
         return -1;
     }
 
-    window = glfwCreateWindow(800,800, "WINDOW_NAME", NULL, NULL);
+    const unsigned int screen_width = 800;
+    const unsigned int screen_height = 600;
+    window = glfwCreateWindow(screen_width, screen_height, "WINDOW_NAME", NULL, NULL);
     glfwMakeContextCurrent(window);
 
     // **NOTE; Must be done AFTER GLFW initialised (hence must terminate too if there is an error)
     if( !gladLoadGLLoader((GLADloadproc) glfwGetProcAddress) ) {        // Loading GLAD info, else leave with error code
         std::cout << "GLAD failed to load" << std::endl;                // Must also be run AFTER making the window current, otherwise will NOT load correctly
-        glfwTerminate();   
+        glfwTerminate();
         return -1;
     }
 
-    glClearColor(0.2f, 0.8f, 0.2f, 1.0f);
-
-    while(!glfwWindowShouldClose(window)) {     // Loop while the specified window is open
-        glfwPollEvents();
-
-        glClear(GL_COLOR_BUFFER_BIT);
-
-        glfwSwapBuffers(window);
-    }
+    // --- RUN PROGRAMS WITHIN HERE ---
+    // perform_simple_triangle_example(window);
+    // perform_simple_triangle_example_ex1(window);
+    // perform_simple_triangle_example_ex2(window);
+    perform_custom_multi_example_A(window, screen_width, screen_height);
+    // --- RUN PROGRAMS WITHIN HERE ---
 
     glfwTerminate();    // Stop GLFW before program end - clean-up
     return 0;
 }
+
+
+
+// ###
+// ### (1) Render shapes + lighting
+// ### (2) MOI add details 
+// ### (3) MT Comp. in Cpp 
+// ###
