@@ -1,11 +1,12 @@
 #include<iostream>
 #include "glad.h"
 #include<GLFW/glfw3.h>
+#include <mpi.h>
 
 #include "simple_triangle_example.h"
 #include "custom_multi_example.h"
 
-int main() {
+int main(int argc, char *argv[]) {
     /*
     ADDITIONAL NOTES**
         . Must add new src files to CMakeLists to compile together correctly
@@ -30,6 +31,18 @@ int main() {
         glfwTerminate();
         return -1;
     }
+
+    // Testing MPI
+    /*
+    . Use "mpirun -np 2 ./EXE_FILE" if you want to utilise MPI
+    */
+    int rank, size;
+    MPI_Init(&argc, &argv);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+    printf("Hello, World.  I am %d of %d\n", rank, size);
+    MPI_Finalize();
+    // Testing MPI
 
     // --- RUN PROGRAMS WITHIN HERE ---
     // perform_simple_triangle_example(window);

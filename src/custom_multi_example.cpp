@@ -1,3 +1,6 @@
+#include <omp.h>
+// #include <mpi.h>
+
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 #include "glm/gtc/type_ptr.hpp"
@@ -26,6 +29,12 @@ const char *fragmentShaderSourceMulti = "#version 330 core\n"
     "}\0";
 
 void perform_custom_multi_example_A(GLFWwindow* window, const unsigned int screen_width, const unsigned int screen_height) {
+    #pragma omp parallel
+    {
+        int thread_index = omp_get_thread_num();
+        std::cout << "Thread " << thread_index << " Being Used" << std::endl;
+    }
+    
     glEnable(GL_DEPTH_TEST);
 
     float camera_rotation_theta = 65.0f;
@@ -188,7 +197,6 @@ void calculateKeyPresses(GLFWwindow *window, float *camera_rotation_theta, float
 . * Try different meshes loaded
 . * Try textures
 
-. * Get multi-threading cpp working
 . * Mix multi-threading with OpenGL calls
 
 . * Try lighting

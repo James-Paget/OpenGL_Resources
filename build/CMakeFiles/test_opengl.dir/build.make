@@ -142,6 +142,10 @@ test_opengl: CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o
 test_opengl: CMakeFiles/test_opengl.dir/build.make
 test_opengl: /usr/lib/x86_64-linux-gnu/libGLX.so
 test_opengl: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+test_opengl: /usr/lib/gcc/x86_64-linux-gnu/14/libgomp.so
+test_opengl: /usr/lib/x86_64-linux-gnu/libpthread.a
+test_opengl: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so
+test_opengl: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
 test_opengl: CMakeFiles/test_opengl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/james-paget/Desktop/OpenGL_Resources/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test_opengl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_opengl.dir/link.txt --verbose=$(VERBOSE)

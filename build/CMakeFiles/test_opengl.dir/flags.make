@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/g++-14
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
 
 C_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
 
-CXX_FLAGS = -g
+CXX_FLAGS = -g -fopenmp
 

@@ -1,25 +1,25 @@
 [
 {
   "directory": "/home/james-paget/Desktop/OpenGL_Resources/build",
-  "command": "/usr/bin/g++-14   -g -o CMakeFiles/test_opengl.dir/src/main.cpp.o -c /home/james-paget/Desktop/OpenGL_Resources/src/main.cpp",
+  "command": "/usr/bin/g++-14  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -g -fopenmp -o CMakeFiles/test_opengl.dir/src/main.cpp.o -c /home/james-paget/Desktop/OpenGL_Resources/src/main.cpp",
   "file": "/home/james-paget/Desktop/OpenGL_Resources/src/main.cpp",
   "output": "CMakeFiles/test_opengl.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/james-paget/Desktop/OpenGL_Resources/build",
-  "command": "/usr/bin/gcc-14   -g -o CMakeFiles/test_opengl.dir/src/glad.c.o -c /home/james-paget/Desktop/OpenGL_Resources/src/glad.c",
+  "command": "/usr/bin/gcc-14  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -g -o CMakeFiles/test_opengl.dir/src/glad.c.o -c /home/james-paget/Desktop/OpenGL_Resources/src/glad.c",
   "file": "/home/james-paget/Desktop/OpenGL_Resources/src/glad.c",
   "output": "CMakeFiles/test_opengl.dir/src/glad.c.o"
 },
 {
   "directory": "/home/james-paget/Desktop/OpenGL_Resources/build",
-  "command": "/usr/bin/g++-14   -g -o CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o -c /home/james-paget/Desktop/OpenGL_Resources/src/simple_triangle_example.cpp",
+  "command": "/usr/bin/g++-14  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -g -fopenmp -o CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o -c /home/james-paget/Desktop/OpenGL_Resources/src/simple_triangle_example.cpp",
   "file": "/home/james-paget/Desktop/OpenGL_Resources/src/simple_triangle_example.cpp",
   "output": "CMakeFiles/test_opengl.dir/src/simple_triangle_example.cpp.o"
 },
 {
   "directory": "/home/james-paget/Desktop/OpenGL_Resources/build",
-  "command": "/usr/bin/g++-14   -g -o CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o -c /home/james-paget/Desktop/OpenGL_Resources/src/custom_multi_example.cpp",
+  "command": "/usr/bin/g++-14  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -g -fopenmp -o CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o -c /home/james-paget/Desktop/OpenGL_Resources/src/custom_multi_example.cpp",
   "file": "/home/james-paget/Desktop/OpenGL_Resources/src/custom_multi_example.cpp",
   "output": "CMakeFiles/test_opengl.dir/src/custom_multi_example.cpp.o"
 }
